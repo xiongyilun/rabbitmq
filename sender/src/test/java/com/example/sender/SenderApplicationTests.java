@@ -18,4 +18,14 @@ public class SenderApplicationTests {
         helloSender.send();
     }
 
+    @Test
+    public void testTopic1() {
+        helloSender.send1();
+    }
+
+    @Test
+    public void testTopic2() {
+        helloSender.send2();
+    }
+
 }
